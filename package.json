@@ -4,7 +4,8 @@
   "description": "![](https://img.shields.io/badge/Microverse-blueviolet)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "watch": "jest --watch *.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/ogiogiovictor/git_test_jest_mocha/issues"
   },
-  "homepage": "https://github.com/ogiogiovictor/git_test_jest_mocha#readme"
+  "homepage": "https://github.com/ogiogiovictor/git_test_jest_mocha#readme",
+  "devDependencies": {
+    "jest": "^28.1.1"
+  }
 }
